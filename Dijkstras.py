@@ -54,7 +54,7 @@ def nPrimeAdder(listItem):
     else:
         return
 
-#TODO Fix Nprime: currently it is being refined locally within functions (Possibly make it an Object)
+#TODO Fix Nprime: currently it is being redefined locally within functions (Possibly make it an Object)
 def testing(nodes):
     for node in nodes:
         print("Node Name:", node.name,"\nAdj nodes:", node.neighbors,"\nDistance from of", node.name, "from start:", distanceCalc(node))
